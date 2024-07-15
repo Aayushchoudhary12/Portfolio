@@ -25,7 +25,8 @@ const items = [
         title: "E-commerce",
         img: Ecommerce,
         desc: "this web hosts a scalable and secure e-commerce platform with a comprehensive set of features for both customers and administrators. Users can enjoy seamless product browsing, a streamlined checkout process. Admins can efficiently manage products, orders, and user accounts, with access to detailed analytics.",
-        projectLink: "https://e-commerce-two-nu-93.vercel.app",
+        codeLink: "https://github.com/Aayushchoudhary12/E-commerce-main",
+       projectLink: "https://e-commerce-main-tau.vercel.app/",
         techUsed: ["React", "Router-dom", "firebase", "Redux", "Readux-saga", "Bootstrap"],
     },
     {
@@ -33,15 +34,15 @@ const items = [
         title:"Pro Veterinarian",
         img: ProVeterinarianImg,
         desc: "This web application serves as a demonstration of front-end styling techniques using HTML and Bootstrap framework. It offers a curated collection of styled components, layouts, and responsive design patterns.",
-        codeLink: "https://github.com/VidushiAr1/Pro-Veterinarian",
-        projectLink: "https://vidushiar1.github.io/Pro-Veterinarian/",
+        codeLink: "https://github.com/Aayushchoudhary12/Pro-Veterinarian-main",
+        projectLink: "https://pro-veterinarian-main.vercel.app/",
         techUsed: ["html", "css" ,"bootstrap"],
     },
     {
         id: 2,
         title: "Parking Automation System",
         img: Parking,
-        codeLink: 'https://github.com/VidushiAr1/project_Parking_Automation_System',
+        codeLink: 'https://github.com/Aayushchoudhary12/Pro-Veterinarian-main',
         projectLink: '',
         techUsed: ["python"]
     }
