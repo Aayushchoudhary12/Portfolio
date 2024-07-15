@@ -59,7 +59,7 @@ export default function Info() {
         animate={mainControls}
       >
         <p>
-        Hi there! I'm Vidushi Arora, a passionate software developer dedicated to solving problems and optimizing performance through data structures and algorithms in Java.
+        Hi there! I'm Aayush Choudhary, a passionate software developer dedicated to solving problems and optimizing performance through data structures and algorithms in Java.
         </p>
         <p>
         In my portfolio, you’ll find a showcase of projects where I apply code and front-end skills like HTML and CSS. I thrive in problem-solving environments.
