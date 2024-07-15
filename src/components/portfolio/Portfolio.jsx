@@ -3,12 +3,23 @@ import { motion, useScroll, useSpring } from 'framer-motion';
 import ProVeterinarianImg from "/Pro-veterinarian.jpg";
 import Parking from "/Parking Automation System.png";
 import Ecommerce from "../../../public/e-commerce.png";
+import moveFactsImg from "../../../public/movieFacts.jpg";
 
 import "./portfolio.scss";
 
 import Single from "./single/Single";
 
 const items = [
+    {
+        id: 1,
+        title:"MovieFacts",
+        img: moveFactsImg,
+        desc: "This web applictaion is a treasure trove of cinematic delights, offering comprehensive details about your favorite films. Discover insightful ratings, captivating trailers, and in-depth casting information for each movie in our collection.",
+        codeLink: "https://github.com/akhilworks2001/MovieFacts",
+        projectLink: "https://movie-facts.vercel.app/",
+        techUsed: ["React", "Router-dom", "Axios", "scss", "react-player", "redux"],
+        techUsed2: [ "lazy-load-image", "infinite-scroll"],
+    },
    {
         id: 2,
         title: "E-commerce",
