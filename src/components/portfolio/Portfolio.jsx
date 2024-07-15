@@ -2,12 +2,21 @@ import React, { useRef } from 'react';
 import { motion, useScroll, useSpring } from 'framer-motion';
 import ProVeterinarianImg from "/Pro-veterinarian.jpg";
 import Parking from "/Parking Automation System.png";
+import Ecommerce from "../../../public/e-commerce.png";
 
 import "./portfolio.scss";
 
 import Single from "./single/Single";
 
 const items = [
+   {
+        id: 2,
+        title: "E-commerce",
+        img: Ecommerce,
+        desc: "this web hosts a scalable and secure e-commerce platform with a comprehensive set of features for both customers and administrators. Users can enjoy seamless product browsing, a streamlined checkout process. Admins can efficiently manage products, orders, and user accounts, with access to detailed analytics.",
+        projectLink: "https://e-commerce-two-nu-93.vercel.app",
+        techUsed: ["React", "Router-dom", "firebase", "Redux", "Readux-saga", "Bootstrap"],
+    },
     {
         id: 1,
         title:"Pro Veterinarian",
