@@ -43,8 +43,8 @@ const slideVariants = {
 
 const downloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/151_vidushi_arora.pdf'; 
-    link.download = '151_vidushi_arora.pdf';
+    link.href = 'aayush_resume (1).pdf'; 
+    link.download = 'aayush_resume (1).pdf';
     link.click();
   };
 
