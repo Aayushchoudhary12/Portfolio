@@ -58,7 +58,7 @@ export default function Hero() {
                 initial="initial"
                 animate="animate">
                 <div className="textBox">
-                <motion.h1 variants={textVariants}>Hello! I'm Vidushi Arora </motion.h1>
+                <motion.h1 variants={textVariants}>Hello! I'm Aayush Choudhary </motion.h1>
                 <motion.h2 variants={textVariants}>Front-end Developer</motion.h2>
                 <motion.div variants={textVariants} className="buttons">
                     <motion.button onClick={downloadCV} variants={textVariants}>Download CV</motion.button>
